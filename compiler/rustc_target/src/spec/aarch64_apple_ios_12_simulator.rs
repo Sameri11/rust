@@ -8,7 +8,6 @@ pub fn target() -> Target {
     // IPHONEOS_DEPLOYMENT_TARGET.
     // This is required for the simulator target to pick the right
     // MACH-O commands, so we do too.
-    let arch = "arm64";
 
     Target {
         llvm_target: "arm64-apple-ios12.0-simulator".to_string(),
