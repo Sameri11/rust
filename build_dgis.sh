@@ -15,7 +15,7 @@ RUST_BRANCH="custom-targets"
 # 3. Select a name for the toolchain you want to install as. The toolchain will be installed
 # under $HOME/.rustup/toolchains/rust-$RUST_TOOLCHAIN
 
-RUST_TOOLCHAIN="ios-nsdk-custom"
+RUST_TOOLCHAIN="ios-nsdk-test-script"
 
 
 export OPENSSL_STATIC=1
